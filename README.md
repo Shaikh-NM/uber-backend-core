@@ -28,7 +28,6 @@ A microservices-based ride-hailing backend built with **Spring Boot**, **Redis G
 - [API Overview](#-api-overview)
 - [Kafka Topics](#-kafka-topics)
 - [Project Structure](#-project-structure)
-- [Learning Resources](#-learning-resources)
 - [Contributing](#-contributing)
 - [License](#-license)
 
@@ -242,17 +241,6 @@ Each service has its own `application.yml` / `application.properties`. Key setti
 ├── LICENSE
 └── README.md
 ```
-
----
-
-## 🎓 Learning Resources
-
-This project accompanies a full video build:
-
-- 🎥 **Video:** [Uber Real-Time Driver Matching System: Spring Boot, Redis, Kafka](https://www.youtube.com/watch?v=Cdx4DF9N8d8)
-- 📚 **Playlist:** [Spring Boot Microservices Full Course](https://www.youtube.com/playlist?list=PLq2IQ7nZjFRGltba_w9oH6aLVrjmvhszx)
-- 💻 **Course repo:** [SpringBoot-Microservice-Full-Course](https://github.com/YeshendraDhaker/SpringBoot-Microservice-Full-Course)
-- 🚗 **Source code:** [Uber-App](https://github.com/YeshendraDhaker/Uber-App)
 
 ---
 
