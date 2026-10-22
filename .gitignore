@@ -1,16 +1,14 @@
-# Compiled class file
+# ==========================================
+# Compiled Class Files & Crash Logs
+# ==========================================
 *.class
-
-# Log file
 *.log
-
-# BlueJ files
 *.ctxt
-
-# Mobile Tools for Java (J2ME)
 .mtj.tmp/
+hs_err_pid*
+replay_pid*
 
-# Package Files #
+# Package Files
 *.jar
 *.war
 *.nar
@@ -19,6 +17,84 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Ensure build wrappers are not accidentally ignored
+!gradle/wrapper/gradle-wrapper.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# ==========================================
+# Build Tools & Output Directories
+# ==========================================
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Gradle
+.gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ==========================================
+# IDEs & Code Editors
+# ==========================================
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# VS Code / Cursor
+.vscode/
+*.code-workspace
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# ==========================================
+# Environment Variables & Local Secrets
+# ==========================================
+.env
+*.env
+.env.local
+.env.*.local
+*.pem
+*.key
+application-secrets.yml
+application-secrets.properties
+
+# ==========================================
+# Container & Distributed Systems State
+# ==========================================
+# Local volume persistence mounts (Kafka / Zookeeper / Redis / DBs)
+data/
+zookeeper-data/
+kafka-data/
+redis-data/
+*.rdb
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
